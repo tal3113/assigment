@@ -1,2 +1,2 @@
-web: gunicorn assigment.wsgi
-web: gunicorn assigment:app
+web: gunicorn assigment.wsgi --log-file -
+web: gunicorn MessageApp:app
